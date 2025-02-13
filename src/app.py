@@ -12,6 +12,9 @@ st.set_page_config(
     layout="wide"
 )
 
+os.environ["OPENAI_API_KEY"] = st.secrets.API_SECRETS.OPENAI_API_KEY
+os.environ["TAVILY_API_KEY"] = st.secrets.API_SECRETS.TAVILY_API_KEY
+
 # Initialize clients
 tavily_client = TavilyClient(os.getenv('TAVILY_API_KEY'))
 
