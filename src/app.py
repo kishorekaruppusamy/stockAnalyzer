@@ -1,5 +1,4 @@
 import streamlit as st
-import sys
 from tavily import TavilyClient
 import os
 from utils.helpers import search_news, analyze_news
@@ -88,4 +87,5 @@ if submitted and prompt:
 
     except Exception as e:
         print(f"ERROR: {str(e)}")
-        st.error(f"An error occurred: {str(e)}") 
+        st.error(f"An error occurred: {str(e)}")
+        
