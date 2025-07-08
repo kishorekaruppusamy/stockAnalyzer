@@ -28,7 +28,7 @@ openai==1.62.0
 packaging==23.2
 pandas==2.2.3
 pillow==10.4.0
-protobuf==4.25.6
+protobuf==4.25.8
 pyarrow==19.0.0
 pydantic==2.10.6
 pydantic_core==2.27.2
